@@ -13,6 +13,10 @@ public class Controller {
 		return "Hello World";
 	}
 	
+	@GetMapping("/hellobye")
+	public String gethellomethod1() {
+		return "Hello AP bye bye AP";
+	}
 	
 	@GetMapping("/hellobyebye")
 	public String gethellomethod() {
